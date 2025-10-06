@@ -1,6 +1,6 @@
-public class Missing {
+public class MissingElement {
    
-void missingElement(int arr[])
+void missing(int arr[])
 {
 int maxValue=0;
 int minValue=arr[0];
@@ -30,7 +30,8 @@ for(int i=minValue; i<maxValue; i++)
 
     public static void main(String[] args) {
         int arr[]={5,9,8,7,6,1};
-        Missing call=new Missing();
-        call.missingElement(arr);
+        MissingElement call=new MissingElement();
+        call.missing(arr);
     }
 }
+
